@@ -1,0 +1,8 @@
+Tasks:
+
+Research and summarize the concept of version control systems (VCS), including their purpose, benefits, and key features. Explain how VCS facilitate collaboration, track changes, and maintain the integrity of software projects.
+Explore the evolution of version control systems, from traditional centralized systems like SVN (Subversion) to distributed systems like Git. Compare the advantages and limitations of centralized vs. distributed VCS, highlighting the reasons for the widespread adoption of Git.
+Investigate the fundamental concepts of Git, such as repositories, commits, branches, merges, and remotes. Explain how these concepts work together to enable effective version control and collaboration in software development projects.
+Explore the Git workflow models, including the centralized workflow, feature branch workflow, Gitflow, and GitHub flow. Describe each workflow model, its advantages, and when it is best suited for use in different development scenarios.
+Demonstrate practical proficiency in using Git by completing a series of hands-on exercises. Tasks may include setting up a local Git repository, creating branches, making commits, merging branches, resolving conflicts, and collaborating with remote repositories (e.g., GitHub or GitLab).
+Discuss the importance of Git branching strategies in software development, such as feature branching, release branching, and hotfix branching. Explain how branching strategies contribute to project organization, code stability, and team collaboration. 
