@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - Open University of Kenya</title>
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button>Search</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="apply">
+        <h2>Apply Now</h2>
+        <p>Welcome to the application portal of the Open University of Kenya (OUK)! Please fill out the application form below to apply for admission to our university.</p>
+        
+        <!-- Application form goes here -->
+        <form action="submit_application.php" method="post">
+            <!-- Personal Information -->
+            <h3>Personal Information</h3>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+        
+            <label for="id-number">ID Number:</label>
+            <input type="text" id="id-number" name="id-number" required>
+        
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+        
+            <!-- Academic Information -->
+            <h3>Academic Information</h3>
+            <label for="high-school">High School Attended:</label>
+            <input type="text" id="high-school" name="high-school" required>
+        
+            <label for="grade">Grade/Score:</label>
+            <input type="text" id="grade" name="grade" required>
+        
+            <label for="year-of-completion">Year of Completion:</label>
+            <input type="text" id="year-of-completion" name="year-of-completion" required>
+        
+            <!-- Program Selection -->
+            <h3>Program Selection</h3>
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program" required>
+                <option value="">Select Program</option>
+                <!-- Undergraduate Programs -->
+                <optgroup label="Undergraduate Programs">
+                    <option value="Bachelor of Science in Information Technology">Bachelor of Science in Information Technology</option>
+                    <option value="Bachelor of Science in Computer Science">Bachelor of Science in Computer Science</option>
+                    <option value="Bachelor of Business Information Technology">Bachelor of Business Information Technology</option>
+                    <option value="Bachelor of Science in Software Engineering">Bachelor of Science in Software Engineering</option>
+                    <option value="Bachelor of Science in Data Science and Analytics">Bachelor of Science in Data Science and Analytics</option>
+                </optgroup>
+                <!-- Postgraduate Programs -->
+                <optgroup label="Postgraduate Programs">
+                    <option value="Master of Science in Information Technology">Master of Science in Information Technology</option>
+                    <option value="Master of Science in Computer Science">Master of Science in Computer Science</option>
+                    <option value="Master of Business Information Technology">Master of Business Information Technology</option>
+                    <option value="Master of Science in Software Engineering">Master of Science in Software Engineering</option>
+                    <option value="Master of Science in Data Science and Analytics">Master of Science in Data Science and Analytics</option>
+                </optgroup>
+                <!-- Diploma and Certificate Programs -->
+                <optgroup label="Diploma and Certificate Programs">
+                    <option value="Diploma in Information Technology">Diploma in Information Technology</option>
+                    <option value="Diploma in Computer Science">Diploma in Computer Science</option>
+                    <option value="Certificate in Information Technology">Certificate in Information Technology</option>
+                    <option value="Certificate in Computer Science">Certificate in Computer Science</option>
+                </optgroup>
+                <!-- Professional Courses -->
+                <optgroup label="Professional Courses">
+                    <option value="Certified Information Systems Auditor (CISA)">Certified Information Systems Auditor (CISA)</option>
+                    <option value="Certified Information Security Manager (CISM)">Certified Information Security Manager (CISM)</option>
+                    <option value="Certified Ethical Hacker (CEH)">Certified Ethical Hacker (CEH)</option>
+                    <option value="Cisco Certified Network Associate (CCNA)">Cisco Certified Network Associate (CCNA)</option>
+                    <option value="Microsoft Certified: Azure Fundamentals">Microsoft Certified: Azure Fundamentals</option>
+                </optgroup>
+            </select>
+            
+        
+            <h3>Additional Information</h3>
+            <label for="previous-education">Previous Education:</label>
+            <input type="text" id="previous-education" name="previous-education" required>
+        
+            <label for="area-of-interest">Area of Interest:</label>
+            <input type="text" id="area-of-interest" name="area-of-interest" required>
+        
+            <label for="reason">Reason for Choosing this Program:</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+        
+            <!-- Submit Button -->
+            <button type="submit">Submit Application</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Open University of Kenya. All rights reserved.</p>
+    </footer>
+
+    <script src="apply.js"></script>
+</body>
+</html>

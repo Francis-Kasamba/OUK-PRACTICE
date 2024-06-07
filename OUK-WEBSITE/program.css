@@ -3,14 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #bdd5ee;
 }
 
 header {
     background-color: #007bff;
     padding: 10px 20px;
     color: white;
-    font-size: 20px;
 }
 
 nav ul {
@@ -60,8 +59,8 @@ nav ul li a:hover {
     background-color: #003d80;
 }
 
-/* University description styles */
-#universityDescription {
+/* Programs page styles */
+#programs {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -69,33 +68,34 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-#universityDescription h2 {
+#programs h2 {
     color: #007bff;
     margin-bottom: 20px;
 }
 
-#universityDescription h3 {
+#programs h3 {
     color: #333;
     margin-top: 20px;
 }
 
-#universityDescription p {
+#programs p {
     margin-bottom: 15px;
     line-height: 1.6;
 }
 
-#universityDescription ul {
+#programs ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-#universityDescription ul li {
+#programs ul li {
     margin-bottom: 10px;
 }
 
-#universityDescription strong {
+#programs strong {
     color: #007bff;
 }
+
 /* Footer styles */
 footer {
     background-color: #007bff;

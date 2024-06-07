@@ -10,7 +10,6 @@ header {
     background-color: #007bff;
     padding: 10px 20px;
     color: white;
-    font-size: 20px;
 }
 
 nav ul {
@@ -60,42 +59,44 @@ nav ul li a:hover {
     background-color: #003d80;
 }
 
-/* University description styles */
-#universityDescription {
+/* Contact page styles */
+#contact {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
+   
+}
+#contactm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
 }
 
-#universityDescription h2 {
+
+#contact h2 {
     color: #007bff;
     margin-bottom: 20px;
 }
 
-#universityDescription h3 {
+/* Card styles */
+.contact-info {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.contact-info h3 {
     color: #333;
-    margin-top: 20px;
-}
-
-#universityDescription p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-}
-
-#universityDescription ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#universityDescription ul li {
     margin-bottom: 10px;
 }
 
-#universityDescription strong {
-    color: #007bff;
+.contact-info p {
+    margin: 5px 0;
 }
+
 /* Footer styles */
 footer {
     background-color: #007bff;
