@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #003d80;
+}
+
+/* University description styles */
+#universityDescription {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#universityDescription h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+#universityDescription h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#universityDescription p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#universityDescription ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#universityDescription ul li {
+    margin-bottom: 10px;
+}
+
+#universityDescription strong {
+    color: #007bff;
+}
+/* Footer styles */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
